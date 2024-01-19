@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.level2, .level1, .level0{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.level2{
+    background-image: url('/assets/wall1.jpg');
+}
+.level1{
+    background-image: url('/assets/wall2.jpg');
+}
+.level0{
+    background-image: url('/assets/wall3.jpg');
+}
+
+.lift{
+    display: flex;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    height: 75vh;
+    width: 75vw;
+    background-image: linear-gradient(90deg, #7B7B7B, #A9A9A9, #7B7B7B);
+    border: .8rem solid whitesmoke;
+    position: fixed;
+    border-radius: .3rem;
+}
+
+.panel{
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: greenyellow;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid #a9a9a9;
+    border-radius: 5px;
+    height: 7rem;
+    width: 6rem;
+    background-color: black;
+}
+
+.buttons{
+    gap: .5rem;
+    display: flex;
+}
+
+.buttons > button{
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: .3rem .7rem;
+    height: 3rem;
+}
+
+.level_label{
+    margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.level_label > p{
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem 1rem 2rem;
+    border: .3rem solid #c0c0c0;
+    border-radius: 5px;
+}
