@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: sans-serif;
 }
 
 .level2, .level1, .level0{
@@ -28,7 +29,7 @@
     margin: auto;
     height: 75vh;
     width: 75vw;
-    background-image: linear-gradient(90deg, #7B7B7B, #A9A9A9, #7B7B7B);
+    background-image: linear-gradient(90deg, #7B7B7B, #A9A9A9, #c0c0c0, #A9A9A9, #7B7B7B);
     border: .8rem solid whitesmoke;
     position: fixed;
     border-radius: .3rem;
@@ -73,6 +74,10 @@
     font-size: 2rem;
     padding: .3rem .7rem;
     height: 3rem;
+}
+
+button:disabled {
+    cursor: not-allowed;
 }
 
 .level_label{
