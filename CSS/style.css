@@ -13,13 +13,13 @@
 }
 
 .level2{
-    background-image: url('assets/wall1.jpg');
+    background-image: url('../assets/wall1.jpg');
 }
 .level1{
-    background-image: url('assets/wall2.jpg');
+    background-image: url('../assets/wall2.jpg');
 }
 .level0{
-    background-image: url('assets/wall3.jpg');
+    background-image: url('../assets/wall3.jpg');
 }
 
 .lift{
